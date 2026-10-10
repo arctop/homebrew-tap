@@ -8,25 +8,25 @@ cask "seamless" do
     end
   end
 
-  version "0.7.0"
+  version "0.7.1"
 
   on_macos do
     on_arm do
-      sha256 "f06e73014ec505b9e14744486692641b56bb2576f7d287011167eed54d1f99d2"
+      sha256 "f43f697b6a7c5ec91b9df03a4687b6cb6c96af57864e4eb01bc9f66ab0ce22f1"
       url "https://github.com/arctop/seamless/releases/download/v#{version}/seamless_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b3200464253e762b5276e205325d4f57ca19f2806c21a48d5c967215925c9d8f"
+      sha256 "3a7de2f9989a56c12a61df93a80fb8a34b1409fe9194d0460b354bcd47e2a071"
       url "https://github.com/arctop/seamless/releases/download/v#{version}/seamless_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "06a9cd83cca08b7cdc7061e0a6361e230e5dd0c35a253385d30a140d2b3fcdc8"
+      sha256 "0331e729fa6dea3ac5bc62cf1dccbc288cb3da38533bbe708aa329dadc2a793b"
       url "https://github.com/arctop/seamless/releases/download/v#{version}/seamless_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8eb7a0ba20c00b01d7915b324efda04951446855aade1d5631755fa26018a58f"
+      sha256 "4bfd19a0dd5cd2b87e3ae02edafcd257cf7fcd0077310a4f0f7781eff39b89ff"
       url "https://github.com/arctop/seamless/releases/download/v#{version}/seamless_#{version}_linux_amd64.tar.gz"
     end
   end
